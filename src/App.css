@@ -13,4 +13,8 @@
 
 .box2 {
   margin-top: 20px;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
 }
