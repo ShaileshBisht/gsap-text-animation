@@ -11,7 +11,8 @@
 .innerBox {
   border-radius: 20px;
   width: 60%;
-  border: 1px solid black;
+  border: none;
+  backdrop-filter: blur(100px);
 }
 
 .app {
@@ -48,7 +49,7 @@
   font-size: 2rem;
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 50%;
   font-style: italic;
   font-weight: 400;
   letter-spacing: 1px;

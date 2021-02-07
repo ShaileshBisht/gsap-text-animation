@@ -45,11 +45,29 @@ function App() {
         duration: 1,
         y: 10,
         opacity: 0,
-        stagger: 1,
+        stagger: 0.5,
         ease: "elastic.out(1, 0.3)",
       },
       "+=4"
-    );
+    )
+      .from(".box2-1", {
+        duration: 1,
+        margin: "0 10px",
+        repeat: -1,
+        yoyo: true,
+        ease: "elastic.out(1, 0.3)",
+      })
+      .to(
+        ".innerBox",
+        {
+          duration: 2,
+          border: "20px dotted white",
+          ease: "power4.out",
+          yoyo: true,
+          repeat: -1,
+        },
+        "-=5"
+      );
   }, []);
 
   return (
