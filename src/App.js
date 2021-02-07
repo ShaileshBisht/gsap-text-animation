@@ -48,7 +48,7 @@ function App() {
         stagger: 0.5,
         ease: "elastic.out(1, 0.3)",
       },
-      "+=4"
+      "+=4.5"
     ).to(
       ".innerBox",
       {
@@ -69,7 +69,7 @@ function App() {
         <div className="app">
           <div className="box1">
             <div className="box1-1">Hi Everyone ,</div>
-            <div className="box1-2"> it's Shailesh Bisht</div>
+            <div className="box1-2"> pay attention</div>
           </div>
           <div className="box2">
             <div className="box2-1">This </div>
