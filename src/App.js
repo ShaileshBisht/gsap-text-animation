@@ -13,17 +13,17 @@ function App() {
       ease: "back.out(1.7)",
     })
       .to(".box1-1", {
-        duration: 1.5,
+        duration: 2,
         transformOrigin: "left",
         background: "blue",
         fontWeight: "900",
         ease: "bounce.out",
-        borderRadius: "50px",
+        borderRadius: "30px",
         padding: "10px",
       })
       .to(
         ".box1-1",
-        { duration: 1.5, color: "white", ease: "steps(12)" },
+        { duration: 1.5, color: "yellow", ease: "steps(12)" },
         "-=1.5"
       )
       .from(".box1-2", {
@@ -59,7 +59,7 @@ function App() {
         yoyo: true,
         repeat: -1,
       },
-      "-=5"
+      "-=2"
     );
   }, []);
 
