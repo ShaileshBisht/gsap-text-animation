@@ -28,10 +28,8 @@ function App() {
   return (
     <div className="app">
       <div className="box1">
-        <h1>
-          <span className="box1-1">Hi Everyone ,</span>
-          <span className="box1-2"> I am Shailesh Bisht</span>
-        </h1>
+        <div className="box1-1">Hi Everyone ,</div>
+        <div className="box1-2"> I am Shailesh Bisht</div>
       </div>
       <div className="box2">
         <div className="box2-1">This </div>

@@ -7,6 +7,11 @@
   flex-direction: column;
 }
 
+.box1 {
+  display: flex;
+  align-items: center;
+}
+
 .box1-2 {
   opacity: 0;
 }
@@ -16,5 +21,8 @@
   font-size: 1.8rem;
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 30%;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
