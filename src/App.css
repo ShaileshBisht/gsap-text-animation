@@ -25,12 +25,11 @@
 
 .box1-2 {
   opacity: 1;
-  text-decoration: underline;
 }
 
 .box2 {
   margin-top: 20px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   display: flex;
   justify-content: space-between;
   width: 30%;

@@ -31,23 +31,41 @@ function App() {
         opacity: 0,
         ease: "elastic.out(1, 0.3)",
         y: -200,
+      })
+      .to(".box1-2", {
+        duration: 2,
+        textDecoration: "underline",
       });
 
-    t2.from(".box2-1", { duration: 1, y: 200, opacity: 0, stagger: 1 }, "+=4");
+    t2.from(
+      ".box2-1",
+      {
+        repeat: -1,
+        yoyo: true,
+        duration: 1,
+        y: 10,
+        opacity: 0,
+        stagger: 1,
+        ease: "elastic.out(1, 0.3)",
+      },
+      "+=4"
+    );
   }, []);
 
   return (
-    <div className="app">
-      <div className="box1">
-        <div className="box1-1">Hi Everyone ,</div>
-        <div className="box1-2"> This is Shailesh Bisht</div>
-      </div>
-      <div className="box2">
-        <div className="box2-1">This </div>
-        <div className="box2-1">is </div>
-        <div className="box2-1">a </div>
-        <div className="box2-1">random </div>
-        <div className="box2-1">animation</div>
+    <div className="outerBox">
+      <div className="app">
+        <div className="box1">
+          <div className="box1-1">Hi Everyone ,</div>
+          <div className="box1-2"> it's Shailesh Bisht</div>
+        </div>
+        <div className="box2">
+          <div className="box2-1">This </div>
+          <div className="box2-1">is </div>
+          <div className="box2-1">a </div>
+          <div className="box2-1">random </div>
+          <div className="box2-1">animation</div>
+        </div>
       </div>
     </div>
   );
