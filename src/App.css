@@ -1,11 +1,22 @@
 .outerBox {
   background-color: yellow;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.innerBox {
+  border-radius: 20px;
+  width: 60%;
+  border: 1px solid black;
 }
 
 .app {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
