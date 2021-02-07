@@ -49,25 +49,18 @@ function App() {
         ease: "elastic.out(1, 0.3)",
       },
       "+=4"
-    )
-      .from(".box2-1", {
-        duration: 1,
-        margin: "0 10px",
-        repeat: -1,
+    ).to(
+      ".innerBox",
+      {
+        duration: 2,
+        borderLeft: "30px double blue",
+        borderRight: "30px double blue",
+        ease: "bounce.out",
         yoyo: true,
-        ease: "elastic.out(1, 0.3)",
-      })
-      .to(
-        ".innerBox",
-        {
-          duration: 2,
-          border: "20px dotted white",
-          ease: "power4.out",
-          yoyo: true,
-          repeat: -1,
-        },
-        "-=5"
-      );
+        repeat: -1,
+      },
+      "-=5"
+    );
   }, []);
 
   return (

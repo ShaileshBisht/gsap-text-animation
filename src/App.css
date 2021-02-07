@@ -46,10 +46,10 @@
 
 .box2 {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 2.2rem;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   font-style: italic;
   font-weight: 400;
   letter-spacing: 1px;
