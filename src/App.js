@@ -9,7 +9,7 @@ function App() {
     t1.from(".box1", {
       duration: 1,
       opacity: 0,
-      x: "-200px",
+      scale: 2,
       ease: "back.out(1.7)",
     })
       .to(".box1-1", {
@@ -29,18 +29,18 @@ function App() {
       .from(".box1-2", {
         duration: 1,
         opacity: 0,
-        ease: "steps(12)",
+        ease: "elastic.out(1, 0.3)",
         y: -200,
       });
 
-    t2.from(".box2-1", { duration: 1, scale: 3, opacity: 0, stagger: 1 });
+    t2.from(".box2-1", { duration: 1, y: 200, opacity: 0, stagger: 1 }, "+=4");
   }, []);
 
   return (
     <div className="app">
       <div className="box1">
         <div className="box1-1">Hi Everyone ,</div>
-        <div className="box1-2"> I am Shailesh Bisht</div>
+        <div className="box1-2"> This is Shailesh Bisht</div>
       </div>
       <div className="box2">
         <div className="box2-1">This </div>
