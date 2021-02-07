@@ -5,6 +5,12 @@ import gsap from "gsap";
 function App() {
   useEffect(() => {
     const t1 = gsap.timeline();
+    t1.from(".box1", {
+      duration: 1,
+      opacity: 0,
+      x: "-200px",
+      ease: "back.out(1.7)",
+    });
   }, []);
 
   return (

@@ -4,3 +4,7 @@
   height: 100vh;
   place-items: center;
 }
+
+.box1-2 {
+  display: none;
+}
