@@ -14,16 +14,22 @@ function App() {
     })
       .to(".box1-1", {
         duration: 1.5,
+        transformOrigin: "left",
         background: "blue",
-        ease: "steps(12)",
+        fontWeight: "900",
+        ease: "bounce.out",
         borderRadius: "50px",
         padding: "10px",
       })
-      .to(".box1-1", { duration: 1.5, color: "white", ease: "steps(12)" })
+      .to(
+        ".box1-1",
+        { duration: 1.5, color: "white", ease: "steps(12)" },
+        "-=1.5"
+      )
       .from(".box1-2", {
         duration: 1,
         opacity: 0,
-        ease: "bounce.out",
+        ease: "steps(12)",
         y: -200,
       });
 
