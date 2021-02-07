@@ -10,10 +10,12 @@
 .box1 {
   display: flex;
   align-items: center;
+  font-size: 3rem;
 }
 
 .box1-2 {
-  opacity: 0;
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .box2 {

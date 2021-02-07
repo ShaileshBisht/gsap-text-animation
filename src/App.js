@@ -20,7 +20,12 @@ function App() {
         padding: "10px",
       })
       .to(".box1-1", { duration: 1.5, color: "white", ease: "steps(12)" })
-      .to(".box1-2", { duration: 2, opacity: 1, textDecoration: "underline" });
+      .from(".box1-2", {
+        duration: 1,
+        opacity: 0,
+        ease: "bounce.out",
+        y: -200,
+      });
 
     t2.from(".box2-1", { duration: 1, scale: 3, opacity: 0, stagger: 1 });
   }, []);
