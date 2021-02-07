@@ -10,7 +10,17 @@ function App() {
       opacity: 0,
       x: "-200px",
       ease: "back.out(1.7)",
-    });
+    })
+      .to(".box1-1", {
+        duration: 1.5,
+        background: "blue",
+        ease: "steps(12)",
+      })
+      .to(
+        ".box1-1",
+        { duration: 1.5, color: "white", ease: "steps(12)" },
+        "-=1.5"
+      );
   }, []);
 
   return (
