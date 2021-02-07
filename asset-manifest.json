@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gsap-text-animation/static/css/main.63e132f1.chunk.css",
+    "main.js": "/gsap-text-animation/static/js/main.29800b40.chunk.js",
+    "main.js.map": "/gsap-text-animation/static/js/main.29800b40.chunk.js.map",
+    "runtime-main.js": "/gsap-text-animation/static/js/runtime-main.c274d653.js",
+    "runtime-main.js.map": "/gsap-text-animation/static/js/runtime-main.c274d653.js.map",
+    "static/js/2.cd36e41b.chunk.js": "/gsap-text-animation/static/js/2.cd36e41b.chunk.js",
+    "static/js/2.cd36e41b.chunk.js.map": "/gsap-text-animation/static/js/2.cd36e41b.chunk.js.map",
+    "static/js/3.9c0d1d15.chunk.js": "/gsap-text-animation/static/js/3.9c0d1d15.chunk.js",
+    "static/js/3.9c0d1d15.chunk.js.map": "/gsap-text-animation/static/js/3.9c0d1d15.chunk.js.map",
+    "index.html": "/gsap-text-animation/index.html",
+    "static/css/main.63e132f1.chunk.css.map": "/gsap-text-animation/static/css/main.63e132f1.chunk.css.map",
+    "static/js/2.cd36e41b.chunk.js.LICENSE.txt": "/gsap-text-animation/static/js/2.cd36e41b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c274d653.js",
+    "static/js/2.cd36e41b.chunk.js",
+    "static/css/main.63e132f1.chunk.css",
+    "static/js/main.29800b40.chunk.js"
+  ]
+}
