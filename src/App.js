@@ -1,4 +1,6 @@
 import "./App.css";
+import { useEffect } from "react";
+import gsap from "gsap";
 
 function App() {
   return (
