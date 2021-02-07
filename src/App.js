@@ -54,17 +54,19 @@ function App() {
 
   return (
     <div className="outerBox">
-      <div className="app">
-        <div className="box1">
-          <div className="box1-1">Hi Everyone ,</div>
-          <div className="box1-2"> it's Shailesh Bisht</div>
-        </div>
-        <div className="box2">
-          <div className="box2-1">This </div>
-          <div className="box2-1">is </div>
-          <div className="box2-1">a </div>
-          <div className="box2-1">random </div>
-          <div className="box2-1">animation</div>
+      <div className="innerBox">
+        <div className="app">
+          <div className="box1">
+            <div className="box1-1">Hi Everyone ,</div>
+            <div className="box1-2"> it's Shailesh Bisht</div>
+          </div>
+          <div className="box2">
+            <div className="box2-1">This </div>
+            <div className="box2-1">is </div>
+            <div className="box2-1">a </div>
+            <div className="box2-1">random </div>
+            <div className="box2-1">animation</div>
+          </div>
         </div>
       </div>
     </div>
